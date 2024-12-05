@@ -303,7 +303,7 @@
 
         <div class="statistics flex justify-around my-2.5">
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">0</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">1</div>
         <div class="label text-third-text-color text-sm">Tags</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
@@ -311,7 +311,7 @@
         <div class="label text-third-text-color text-sm">Categories</div>
     </a>
     <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">1</div>
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">2</div>
         <div class="label text-third-text-color text-sm">Posts</div>
     </a>
 </div>
@@ -455,16 +455,39 @@
     <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
      <i aria-hidden="true"></i><span>推荐阅读</span>
     </div>
-    <div class="recommended-article-group"></div>
+    <div class="recommended-article-group"><a class="recommended-article-item" href="/2024/12/05/近期规划/" title="近期规划" rel="bookmark">
+  <img src="/images/wallhaven-wqery6-light.webp" alt="近期规划" class="!max-w-none">
+  <span class="title">近期规划</span>
+</a></div>
    </div>
    <div class="recommended-mobile">
    <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
      <i aria-hidden="true"></i><span>推荐阅读</span>
    </div>
-   <div class="recommended-article-group"></div>
+   <div class="recommended-article-group"><a class="recommended-article-item" href="/2024/12/05/近期规划/" title="近期规划" rel="bookmark">
+  <img src="/images/wallhaven-wqery6-light.webp" alt="近期规划" class="!max-w-none">
+  <span class="title">近期规划</span>
+</a></div>
    </div>
   </div>
 
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="prev" rel="prev" href="/2024/12/05/%E8%BF%91%E6%9C%9F%E8%A7%84%E5%88%92/">
+					<span class="left arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-left"></i>
+					</span>
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">近期规划</span>
+						<span class="post-nav-item">Prev posts</span>
+					</span>
+				</a>
+			</div>
+			
+			
+		</div>
 		
 
 
@@ -479,44 +502,48 @@
 
         
             
-    <div id="giscus-container"></div>
-    <script data-swup-reload-script defer>
-        async function loadGiscus() {
-            const giscusConfig = {
-                'src': 'https://giscus.app/client.js',
-                'data-repo': 'ACCSCI/Giscus-For-Blog',
-                'data-repo-id': 'R_kgDONZbOZA',
-                'data-category': 'Announcements',
-                'data-category-id': 'DIC_kwDONZbOZM4Ck8ll',
-                'data-mapping': 'url',
-                'data-strict': '1',
-                'data-reactions-enabled': '1',
-                'data-emit-metadata': '1',
-                'data-theme': 'preferred_color_scheme',
-                'data-lang': 'zh-CN',
-                'data-input-position': 'top',
-                'data-loading': 'lazy',
-                'crossorigin': 'anonymous',
-                'async': true
+    <div id="gitalk-container"></div>
+    <script data-swup-reload-script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js"></script>
+    <script data-swup-reload-script>
+
+        function loadGitalk() {
+            let __gitalk__pathname = decodeURI(location.pathname);
+            const __gitalk__pathnameLength = __gitalk__pathname.length;
+            const __gitalk__pathnameMaxLength = 50;
+            if (__gitalk__pathnameLength > __gitalk__pathnameMaxLength) {
+                __gitalk__pathname = __gitalk__pathname.substring(0, __gitalk__pathnameMaxLength - 3) + '...';
             }
-            const giscusScript = document.createElement('script');
-            for (const key in giscusConfig) {
-                giscusScript.setAttribute(key, giscusConfig[key]);
+
+            try {
+                Gitalk && new Gitalk({
+                    clientID: 'Ov23liE0wWpp8YX50mvk',
+                    clientSecret: '32b67607b948b85a6ca130bb692297d0ae995769',
+                    repo: 'Gitalk-Comment-for-Blog',
+                    owner: 'ACCSCI',
+                    admin: ['ACCSCI'],
+                    id: __gitalk__pathname,
+                    language: 'en',
+                    proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+                }).render('gitalk-container');
+
+            } catch (e) {
+                window.Gitalk = null;
             }
-            document.getElementById('giscus-container').appendChild(giscusScript);
         }
+
         if ('true') {
-            let loadGiscusTimeout = setTimeout(() => {
-                loadGiscus();
-                clearTimeout(loadGiscusTimeout);
+            const loadGitalkTimeout = setTimeout(() => {
+                loadGitalk();
+                clearTimeout(loadGitalkTimeout);
             }, 1000);
         } else {
-            document.addEventListener('DOMContentLoaded', loadGiscus);
+            window.addEventListener('DOMContentLoaded', loadGitalk);
         }
     </script>
 
 
-        
+
         
     
 </div>
@@ -558,11 +585,11 @@
                 
                 <p class="post-count space-x-0.5">
                     <span>
-                        1 posts in total
+                        2 posts in total
                     </span>
                     
                         <span>
-                            75 words in total
+                            163 words in total
                         </span>
                     
                 </p>

@@ -19,19 +19,10 @@
 ]]></content>
   </entry>
   <entry>
-    <title>近期规划</title>
-    <url>/2024/12/05/%E8%BF%91%E6%9C%9F%E8%A7%84%E5%88%92/</url>
-    <content><![CDATA[<p>最近马上要期末考试了，可能没什么时间做东西了。<br>但是之后的课设有很充裕的时间，主要学习算法和Godot。<br>下学期主要的事情是:</p>
-<ol>
-<li>学算法参加蓝桥杯</li>
-<li>学Godot参加游戏比赛</li>
-<li>Web开发准备大二下暑假实习</li>
-</ol>
-<p><strong>PS:有时间学一手Rust</strong></p>
+    <title>test</title>
+    <url>/2024/12/06/test/</url>
+    <content><![CDATA[<h2 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h2><p>dfd</p>
 ]]></content>
-      <tags>
-        <tag>规划</tag>
-      </tags>
   </entry>
   <entry>
     <title>新动向</title>
@@ -45,6 +36,21 @@
 ]]></content>
       <tags>
         <tag>行动</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>近期规划</title>
+    <url>/2024/12/05/%E8%BF%91%E6%9C%9F%E8%A7%84%E5%88%92/</url>
+    <content><![CDATA[<p>最近马上要期末考试了，可能没什么时间做东西了。<br>但是之后的课设有很充裕的时间，主要学习算法和Godot。<br>下学期主要的事情是:</p>
+<ol>
+<li>学算法参加蓝桥杯</li>
+<li>学Godot参加游戏比赛</li>
+<li>Web开发准备大二下暑假实习</li>
+</ol>
+<p><strong>PS:有时间学一手Rust</strong></p>
+]]></content>
+      <tags>
+        <tag>规划</tag>
       </tags>
   </entry>
 </search>

@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>近期规划</title>
-    <url>/2024/12/05/%E8%BF%91%E6%9C%9F%E8%A7%84%E5%88%92/</url>
-    <content><![CDATA[<p>最近马上要期末考试了，可能没什么时间做东西了。<br>但是之后的课设有很充裕的时间，主要学习算法和Godot。<br>下学期主要的事情是:</p>
-<ol>
-<li>学算法参加蓝桥杯</li>
-<li>学Godot参加游戏比赛</li>
-<li>Web开发准备大二下暑假实习</li>
-</ol>
-<p><strong>PS:有时间学一手Rust</strong></p>
-]]></content>
-      <tags>
-        <tag>规划</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2024/12/05/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>.</p>
@@ -32,6 +17,21 @@
 
 <p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>近期规划</title>
+    <url>/2024/12/05/%E8%BF%91%E6%9C%9F%E8%A7%84%E5%88%92/</url>
+    <content><![CDATA[<p>最近马上要期末考试了，可能没什么时间做东西了。<br>但是之后的课设有很充裕的时间，主要学习算法和Godot。<br>下学期主要的事情是:</p>
+<ol>
+<li>学算法参加蓝桥杯</li>
+<li>学Godot参加游戏比赛</li>
+<li>Web开发准备大二下暑假实习</li>
+</ol>
+<p><strong>PS:有时间学一手Rust</strong></p>
+]]></content>
+      <tags>
+        <tag>规划</tag>
+      </tags>
   </entry>
   <entry>
     <title>新动向</title>

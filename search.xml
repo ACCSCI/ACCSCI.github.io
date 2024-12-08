@@ -56,20 +56,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>新动向</title>
-    <url>/2024/12/06/%E6%96%B0%E5%8A%A8%E5%90%91/</url>
-    <content><![CDATA[<ul>
-<li>买了个Intel N100 mini主机，先搭个简易网站，只关注最重要的体育馆预约功能</li>
-<li>还买了全套的滑雪套装，只等课设下雪了</li>
-<li>给博客加了Vercel托管和音乐播放功能</li>
-<li>给博客又做了点美化</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>行动</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>近期规划</title>
     <url>/2024/12/05/%E8%BF%91%E6%9C%9F%E8%A7%84%E5%88%92/</url>
     <content><![CDATA[<p>最近马上要期末考试了，可能没什么时间做东西了。<br>但是之后的课设有很充裕的时间，主要学习算法和Godot。<br>下学期主要的事情是:</p>
@@ -82,6 +68,20 @@
 ]]></content>
       <tags>
         <tag>规划</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新动向</title>
+    <url>/2024/12/06/%E6%96%B0%E5%8A%A8%E5%90%91/</url>
+    <content><![CDATA[<ul>
+<li>买了个Intel N100 mini主机，先搭个简易网站，只关注最重要的体育馆预约功能</li>
+<li>还买了全套的滑雪套装，只等课设下雪了</li>
+<li>给博客加了Vercel托管和音乐播放功能</li>
+<li>给博客又做了点美化</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>行动</tag>
       </tags>
   </entry>
 </search>

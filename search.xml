@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Awesome N100</title>
+    <url>/2024/12/08/Awesome-N100/</url>
+    <content><![CDATA[<h1 id="MiniPC"><a href="#MiniPC" class="headerlink" title="MiniPC"></a>MiniPC</h1><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/img/N100_boom.jpg"
+                      alt="miniPC"
+                ></p>
+<h3 id="硬件规格"><a href="#硬件规格" class="headerlink" title="硬件规格"></a>硬件规格</h3><ul>
+<li><strong>CPU</strong>: Intel N100</li>
+<li><strong>RAM</strong>: 8 GB DDR4, 3200 MHz</li>
+<li><strong>SSD</strong>: 500 GB NVMe 或 SATA（根据实际情况指定）</li>
+<li><strong>LAN</strong>: <ul>
+<li>2 × RTL8111H (RJ45) 千兆以太网端口</li>
+<li>支持 PXE 网络引导和 Wake-on-LAN (WoL)</li>
+</ul>
+</li>
+<li><strong>无线网络适配器 (WNA)</strong>: <ul>
+<li>RTL8821CE-VC-CG, 支持 Wi-Fi 5 (IEEE 802.11ac) 和 Bluetooth 5.0</li>
+</ul>
+</li>
+</ul>
+<p>拿到手之后装了Ubuntu Server 24.04，刚开始还打算用微PE，结果发现好像不太行。给U盘烧录的iso安装的。装好了还上不了网。我想着应该是驱动问题吧，毕竟之前都用的云服务器全给我配置好了，也不懂这些。结果我一看Ubuntu装驱动还烦得很，要下什么tar.gz2文件还要编译什么的。。。</p>
+<p>我上网买了个什么免驱动网卡。但我转念一想，当时高考完的暑假也是在家里用了一台不用的电脑装了Ubuntu，但是网络问题好像没这么复杂，一插网线就行了。我又问了问AI，中间折腾了好久，刚装的Ubuntu什么都没有，很多它说的工具都不能用，好不容易把有线的网口启用了，连上网之后第一时间把驱动、必要工具什么的全装了。网卡还没到我网已经连上了<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/img/Tears_of_joy.png"
+                      alt="joycry"
+                >连上网之后感觉全世界都变美好了。</p>
+<p>之后就是连无线网，配置SSH和秘钥登录，搞好之后我只要给mini主机插一个电源线就可以了。现在完全用mobaxterm远程开发了。目前还是局域网，但是已经可以运行一个Flask最小测试程序了。</p>
+<p>真是收获满满啊，运气还挺好，没让我经历手动装驱动的痛苦（不过我猜以后或许会遇到吧）。这就是运维的工作吗？也是体验上了啊，不太感冒哈。</p>
+]]></content>
+      <tags>
+        <tag>行动</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新动向</title>
+    <url>/2024/12/06/%E6%96%B0%E5%8A%A8%E5%90%91/</url>
+    <content><![CDATA[<ul>
+<li>买了个Intel N100 mini主机，先搭个简易网站，只关注最重要的体育馆预约功能</li>
+<li>还买了全套的滑雪套装，只等课设下雪了</li>
+<li>给博客加了Vercel托管和音乐播放功能</li>
+<li>给博客又做了点美化</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>行动</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2024/12/05/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>.</p>
@@ -17,20 +68,6 @@
 
 <p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>新动向</title>
-    <url>/2024/12/06/%E6%96%B0%E5%8A%A8%E5%90%91/</url>
-    <content><![CDATA[<ul>
-<li>买了个Intel N100 mini主机，先搭个简易网站，只关注最重要的体育馆预约功能</li>
-<li>还买了全套的滑雪套装，只等课设下雪了</li>
-<li>给博客加了Vercel托管和音乐播放功能</li>
-<li>给博客又做了点美化</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>行动</tag>
-      </tags>
   </entry>
   <entry>
     <title>近期规划</title>

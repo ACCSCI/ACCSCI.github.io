@@ -19,6 +19,20 @@
 ]]></content>
   </entry>
   <entry>
+    <title>新动向</title>
+    <url>/2024/12/06/%E6%96%B0%E5%8A%A8%E5%90%91/</url>
+    <content><![CDATA[<ul>
+<li>买了个Intel N100 mini主机，先搭个简易网站，只关注最重要的体育馆预约功能</li>
+<li>还买了全套的滑雪套装，只等课设下雪了</li>
+<li>给博客加了Vercel托管和音乐播放功能</li>
+<li>给博客又做了点美化</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>行动</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Awesome N100</title>
     <url>/2024/12/08/Awesome-N100/</url>
     <content><![CDATA[<h1 id="MiniPC"><a href="#MiniPC" class="headerlink" title="MiniPC"></a>MiniPC</h1><p><img  
@@ -50,20 +64,6 @@
                 >连上网之后感觉全世界都变美好了。</p>
 <p>之后就是连无线网，配置SSH和秘钥登录，搞好之后我只要给mini主机插一个电源线就可以了。现在完全用mobaxterm远程开发了。目前还是局域网，但是已经可以运行一个Flask最小测试程序了。</p>
 <p>真是收获满满啊，运气还挺好，没让我经历手动装驱动的痛苦（不过我猜以后或许会遇到吧）。这就是运维的工作吗？也是体验上了啊，不太感冒哈。</p>
-]]></content>
-      <tags>
-        <tag>行动</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>新动向</title>
-    <url>/2024/12/06/%E6%96%B0%E5%8A%A8%E5%90%91/</url>
-    <content><![CDATA[<ul>
-<li>买了个Intel N100 mini主机，先搭个简易网站，只关注最重要的体育馆预约功能</li>
-<li>还买了全套的滑雪套装，只等课设下雪了</li>
-<li>给博客加了Vercel托管和音乐播放功能</li>
-<li>给博客又做了点美化</li>
-</ul>
 ]]></content>
       <tags>
         <tag>行动</tag>
